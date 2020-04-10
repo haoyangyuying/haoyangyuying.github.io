@@ -45,3 +45,12 @@
   [create, update, read, delete] users and tasks, and you can create your perfect task managemant app with it!
 - [Awesome Event APP](https://haoxiaoxiao.herokuapp.com/)
   - This app is built with [Ruby on Rails](https://rubyonrails.org/), you can register and create your event!
+- [Message Me APP](https://github.com/haoyangyuying/message-me-app)
+  - This app is built with [Ruby on Rails](https://rubyonrails.org/), you can register and chat with others!
+
+---
+
+
+### Other sharings
+
+  - [React Basics](https://drive.google.com/file/d/1EmW_tMGgzDqcPC9KiUqHPnyNyc2riuCA/view?usp=sharing)
