@@ -9,11 +9,13 @@ description: >
     Likes jogging, exercise and learning new technologies.
   <br><br>
   CONTACT ME:
-  <a href="https://www.linkedin.com/in/yanghaoyuying/">Linkedin</a>
-  <a href="https://www.facebook.com/yanghaoyuying">Facebook</a>
-  <a href="https://twitter.com/yanghaoyuying/">Twitter</a>
-  <a href="https://haoomedia.wordpress.com/">Haoomedia</a>
-  <a href="mailto:yanghaoyuying@gmail.com">Gmail</a>
-  <a href="mailto:yanghaoyuying@126.com">Netease Mailbox</a>
+  <a href="https://www.linkedin.com/in/yanghaoyuying/">Linkedin</a> |
+  <a href="https://github.com/haoyangyuying">Github</a> |
+  <a href="https://www.facebook.com/yanghaoyuying">Facebook</a> |
+  <a href="https://twitter.com/yanghaoyuying/">Twitter</a> |
+  <a href="https://haoomedia.wordpress.com/">Haoomedia</a> |
+  <a href="mailto:yanghaoyuying@gmail.com">Gmail</a> |
+  <a href="mailto:yanghaoyuying@126.com">Netease</a>
 
+qr_code: "/images/wechat_qr_code.png"
 theme: jekyll-theme-minimal
