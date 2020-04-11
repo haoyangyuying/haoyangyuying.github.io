@@ -47,9 +47,9 @@
   - This app is built with [Ruby on Rails](https://rubyonrails.org/), you can register and create your event!
 - [Message Me APP](https://github.com/haoyangyuying/message-me-app)
   - This app is built with [Ruby on Rails](https://rubyonrails.org/), you can register and chat with others!
-
 - [Budgety APP](https://github.com/haoyangyuying/budgety)
   - This one-page app is built with pure javascript, you can add budget and expense by yourself, it will calculate percentage and your revenue by month!
+
 ---
 
 
