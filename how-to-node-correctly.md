@@ -7,9 +7,11 @@
 - Promise是必须会的， 推荐使用Async函数+Promise组合
 - Node.jsSDK里面的callback写法是必须会的
 - Node.js学习重点，中流砥柱是Promise, 终极解决方案是Async/Await
+
 #### 2）Api写法：Error-first Callback 和 EventEmitter
 - Error-first Callback 定义错误优先的回调写法只需要注意2条规则即可：
   - 回调函数的第一个参数返回的error对象，如果error发生了，它会作为第一个err参数返回，如果没有，一般做法是返回null。
+
   ```js
   function(err, res) {
     // process the error and result
@@ -18,27 +20,29 @@
   - 回调函数的第二个参数返回的是任何成功响应的结果数据。如果结果正常，没有error发生，err会被设置为null，并在第二个参数就出返回成功结果数据
 - EventEmitter
   - 事件模块是 Node.js 内置的对观察者模式“发布/订阅”（publish/subscribe）的实现，通过EventEmitter属性，提供了一个构造函数。该构造函数的实例具有 on 方法，可以用来监听指定事件，并触发回调函数。任意对象都可以发布指定事件，被 EventEmitter 实例的 on 方法监听到。
+
   ```js
-  var EventEmitter = require('events')
-  var util = require('util')
+    var EventEmitter = require('events')
+    var util = require('util')
 
-  var MyEmitter = function() {
+    var MyEmitter = function() {
 
-  }
+    }
 
-  util.inherits(MyEmitter, EventEmitter)
+    util.inherits(MyEmitter, EventEmitter)
 
-  const MyEmitter = new MyEmitter();
+    const MyEmitter = new MyEmitter();
 
-  myEmitter.on('event', (a, b) => {
-    console.log(a, b, this);
-  });
+    myEmitter.on('event', (a, b) => {
+      console.log(a, b, this);
+    });
 
-  myEmitter.emit('event', 'a', 'b');
+    myEmitter.emit('event', 'a', 'b');
   ```
 - 如何更好的查看Node.js文档
   - Node.js异步原理，核心在于Node.js SDK中API调用，然后交由EventLoop去执行
   - 用Dash查看离线文档
+
 #### 3）中流砥柱：Promise
 - promise是对回调地狱的思考或者改良方案，错误优先的回调方式，promise也是由commonjs社区提出来的
 - promise意味着还没有完成的操作，但是在未来会完成。与promise最主要的交互方式是将函数传入它的then方法从而获得Promise最终的值或者Promise最终拒绝
@@ -46,6 +50,7 @@
   - 状态机，三种状态的转换，只在promise对象内部可以控制，外部不能改变状态
   - 全局异常处理
 - 定义
+
 ```js
 var promise = new Promise(function(resolve, reject) {
   if (/* everything turned out fine*/) {
@@ -57,7 +62,9 @@ var promise = new Promise(function(resolve, reject) {
 })
 
 ```
+
 - 调用
+
 ```js
 promise.then(function(text){
   console.log(text)
@@ -66,6 +73,7 @@ promise.then(function(text){
   console.log(err)
 })
 ```
+
 - Promise 的标准化, 主要交互方式是通过then函数，如果Promise成功执行resolve了，就会传给最近的then函数，如果出错reject，那就交给catch来捕获异常
 
 #### 4）终极解决方案：Async/Await
@@ -73,6 +81,7 @@ promise.then(function(text){
   - 通过await Student.getAllAsync();来获取所有的students信息。
   - 通过await ctx.render渲染页面
   - 由于是同步代码，使用try/catch做的异常处理
+
 ```js
 exports.list = async (ctx, next) => {
   try {
@@ -86,7 +95,9 @@ exports.list = async (ctx, next) => {
   }
 }
 ```
+
 - 正常写法
+
 ```js
 const pkgConf = require('pkg-conf');
 
@@ -99,6 +110,7 @@ async function main(){
 
 main();
 ```
+
 - await + Promise
 
 ```js
@@ -112,10 +124,11 @@ async function main() {
 
 main();
 ```
+
 - await + co + generator
 
 ```js
-const co = require('co);
+const co = require('co');
 const Promise = require('bluebird');
 const fs = Promise.promisifyAll(require("fs"));
 
@@ -129,6 +142,7 @@ async function main() {
 }
 main();
 ```
+
 - 要点
   - co的返回值是promise，所以await可以直接接co。
   - co的参数是genrator

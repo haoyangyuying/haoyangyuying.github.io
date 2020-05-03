@@ -1,9 +1,6 @@
 ## Portfolio
 
 ---
-### [Check my blogs](./blogs.html)
-
----
 
 ### Web Development(Companies)
 
@@ -55,6 +52,9 @@
 
 ---
 
+### [Check my blogs](./blogs.html)
+
+---
 
 ### Other sharings
 
