@@ -1,8 +1,11 @@
 ## Portfolio
 
 ---
+### [Check my blogs](./blogs.html)
 
-### Web Development(Companines)
+---
+
+### Web Development(Companies)
 
 **CONTACT WITH ME VIA [NETEASE MAILBOX](yanghaoyuying@126.com) OR [GMAIL](yanghaoyuying@gmail.com) IF YOU ARE INTERESTED IN MY WORKS IN THESE COMPANIES!!!!**
 
