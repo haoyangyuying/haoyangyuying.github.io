@@ -52,7 +52,8 @@
 
 ---
 
-### [Check my blogs](./blogs.html)
+### Blog
+  - [Check my blog here](https://haoo.netlify.app/)
 
 ---
 
