@@ -2,23 +2,30 @@
 
 ---
 
-### Web Development(Companies)
+### Web Development(Professional Projects)
 
 **CONTACT WITH ME VIA [NETEASE MAILBOX](yanghaoyuying@126.com) OR [GMAIL](yanghaoyuying@gmail.com) IF YOU ARE INTERESTED IN MY WORKS IN THESE COMPANIES!!!!**
+
+[aftership](https://www.aftership.com/)
+#### AfterShip is an eCommerce experience SaaS company offering branded shipment tracking, returns management, product discovery personalization, and more. 
+
+<img src="images/as_thumb.png?raw=true"/>
+
+Key Achievements: during 2020 to 2024.10 at AfterShip, I was actively engaged in carrier integration, project management, API building, and resolving customer issues. 
+* In the FedEx integration project, I optimized the process, boosting integration efficiency by more than 50%. 
+* I developed API interfaces for address validation, reducing the delivery failure risk by over 60%. 
+* Additionally, I met the demands of over 50 major customers, increased the number of carriers to 88, and shortened the integration time by over 50%. 
+* In project management, I achieved a Sprint completion rate of over 90%.
+
+---
 
 [shopline](https://shoplineapp.com/)
 #### A Global Smart Commerce Enabler Providing a True Omni-Channel Platform and Cross-Border Services for Brands.
 
 <img src="images/sl_thumb.png?raw=true"/>
 
----
-
-[gitee](https://gitee.com/)
-
-#### Collaboration platform for software development, help developers and businesses with Git/SVN code hosting and collaborative development.
-
-
-<img src="images/ge_thumb.png?raw=true"/>
+Key Achievements: during 2019.05 to 2020.04 at Shopline, I developed and maintained projects encompassing APIs, frontends, and admins. 
+* I enabled 30% of sellers to utilize the comment sharing feature, thereby increasing their revenue by over 20%.
 
 ---
 
@@ -28,10 +35,15 @@
 
 <img src="images/sj_thumb.png?raw=true"/>
 
+Key Achievements: during 2016.10 to 2019.03 at Stayjapan, by optimizing source code and infrastructure.
+* I doubled the website access speed, tripled the page views, increased turnover through APIs, and improved the efficiency of the Vietnamese branch by nearly 30%.
+
 ---
 
-
 ### Web Development(Other side projects)
+
+- [Crumpy AI](https://zhipu-899b439d3044.herokuapp.com/)
+  - Introducing your all-in-one AI assistant! More than just a conversational bot, this tool is designed to streamline your digital tasks with intelligent, real-time support. Whether you’re planning a business trip, booking a last-minute vacation, or need help managing work tickets, this AI is here to assist.
 
 - [Chat APP](http://kpdnffj9jegz.leanapp.cn/)
   - This web app is like a simple [slack](https://slack.com/intl/en-cn/),  and it is built with Node.js with websocket. You can choose different room, register with an awesome name, share location and send text message for now.
